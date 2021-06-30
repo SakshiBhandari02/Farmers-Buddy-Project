@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../css/bootsrap.min.css">
+    <link rel="stylesheet" href="css/style.css" <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    {{!-- about us starts --}}
+    <div class="container-fluid mt-5 about-style" id="aboutid">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto" data-aos="fade-down">
+                <h1 class="text-center main-heading">About Us</h1>
+                <p class="text-center sub-heading">Lets Learn with us</p>
+                <div class="row">
+                    {{!-- right side --}}
+                    <div class="col-md-6 col-12 hero-text " data-aos="fade-right">
+                        <figure>
+                            <img src="/images/about2.jpg" alt="herosection_image" </figure>
+                    </div>
+                    {{!-- right side --}}
+                    <div
+                        class="col-md-6 col-12 hero-text  d-flex justify-content-center align-items-center flex-column" data-aos="fade-left">
+                        <h1>WE ARE HERE TO HELP YOU</h1>
+
+                        <p>Welcome to <span class="bold-style"> Farmer's Buddy </span> we will provide
+                            as much as information which will help
+                            you about all your queries
+
+                            Farmers buddy helps farmers and agricultural students in making decisions on the current market and best prices of crops and herbs. Information regarding major crop markets and the prevalent best price for the crops are published on a regular basis.Farmers buddy also features training and online query handling for all users. Training can be request by students and general public; similarly, queries can posted on the portal via mails. Queries can be forwarded to a particular officer, and information pages of the system are dynamic so that agricultural officers can change it when needed.
+                        </p>
+
+                        
+                        {{!-- <button class="btn-style btn-primary">Read More</button> --}}
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+        {
+          offset: 600,
+          duration: 1000
+        });
+    
+  </script>
+
+    {{!-- about us ends --}}
+</body>
+
+</html>
